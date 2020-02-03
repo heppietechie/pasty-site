@@ -1,0 +1,9 @@
+version: '3.7' 
+services:
+    website:
+        container_name: sample-site
+        build:
+            context: .
+        image: sample-site
+        ports: 
+            - 8080:80
