@@ -11,4 +11,4 @@ echo "Removing Docker Container"
 docker container rm simple-site
 
 echo "Running Docker Container"
-docker container run --name simple-site -d -p 8080:80 heppiedoc/simple-site
+docker container run --name simple-site -d -p 8000:80 heppiedoc/simple-site
